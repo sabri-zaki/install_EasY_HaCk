@@ -1,13 +1,13 @@
 #!/bin/bash
 
 
-#pkg update && pkg upgrade
+pkg update && pkg upgrade
 
 pkg install curl
 
-#pkg install git
+pkg install git
 
-$git clone https://github.com/sabri-zaki/EasY_HaCk
+git clone https://github.com/sabri-zaki/EasY_HaCk
 
 dir=$HOME/EasY_HaCk
 H=$HOME
