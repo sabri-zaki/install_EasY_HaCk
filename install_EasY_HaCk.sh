@@ -9,8 +9,9 @@ pkg install git
 
 git clone https://github.com/sabri-zaki/EasY_HaCk
 
-dir=$HOME/EasY_HaCk
-H=$HOME
+dir=$HOME/EasY_HaCk-results
+H=$HOME/
+bin=$PREFIX/bin/EasY_HaCk
 
 if [ -d $dir ]
 	then
@@ -18,7 +19,7 @@ if [ -d $dir ]
 	echo "welcom to Easyhack/"
 	sleep 5
 	chmod +x $dir/*
-	cp $dir/EasY_HaCk $H/
+	cp $bin $H/
 	bash $dir/install.sh
 	exit
 	else
