@@ -27,6 +27,5 @@ if [ -d $dir ]
 	echo "wait ......."
 	sleep 5
 	echo "sorry you have bad internet connection "
-	
 	echo "or you don't have space in your mobile phone"
 fi
