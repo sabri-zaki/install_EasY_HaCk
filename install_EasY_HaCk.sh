@@ -9,7 +9,7 @@ pkg install git
 
 git clone https://github.com/sabri-zaki/EasY_HaCk
 
-dir=$HOME/EasY_HaCk-results
+dir=$HOME/EasY_HaCk
 H=$HOME/
 bin=$PREFIX/bin/EasY_HaCk
 
